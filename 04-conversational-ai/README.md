@@ -198,11 +198,11 @@ Our Bot is now using a **Regular expression recognizer** as its Language Underst
    - Show me publications on {topic=Pathogenesis}
    ```
 
-7. Type in `#ResearchLookup.Score>=0.6` into the **Condition (4)** box. This will be our prediction scoring setting for the **ResearchLookup** intent.
+7. Type in `#ResearchLookup.Score>=0.6` into the **Condition (4)** box by selecting **Write an expression** from the dropdown. This will be our prediction scoring setting for the **ResearchLookup** intent.
 
    ![ResearchLookup Trigger is open. Trigger phrases are filled in with LUIS utterances. Condition is set to 0.6 scoring for predictions.](media/research-lookup-luis-trigger.png)
 
-8. Select **OrganizationBasedSearch (1)** trigger. Copy and paste the below language understanding code into the **Trigger phrases** box **(2)**. Type in `#OrganizationBasedSearch.Score>=0.6` into the **Condition (3)** box.
+8. Select **OrganizationBasedSearch (1)** trigger. Copy and paste the below language understanding code into the **Trigger phrases** box **(2)**. Type in `#OrganizationBasedSearch.Score>=0.6` into the **Condition (3)** box by selecting **Write an expression** from the dropdown.
 
    ![OrganizationBasedSearch Trigger is open. Trigger phrases are filled in with LUIS utterances. Condition is set to 0.6 scoring for predictions.](media/organizationbasedresearch-luis-trigger.png)
 
