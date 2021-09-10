@@ -73,7 +73,7 @@ First, we will start with a prepopulate Azure Cognitive Search knowledge base en
 
    ![Showing a sample set of RAW documents from Azure Cognitive Search. People, organizations, locations, and keyphrases fields are highlighted.](media/azure-cognitive-search-explorer-result.png)
 
-9. Close the **Search Explorer**. Navigate to the **Keys (1)** panel. Copy the primary admin key by selecting the copy command **(2)**. Take note of the service name for your Azure Cognitive Search **(3)** for use in the next step.
+9. Close the **Search Explorer**. Navigate to the **Keys (1)** panel in settings. Copy the primary admin key by selecting the copy command **(2)**. Take note of the service name for your Azure Cognitive Search **(3)** for use in the next step.
 
    ![Azure Cognitive Search service page is open. The keys tab is shown. Primary admin key copy command is highlighted.](media/azure-cognitive-search-key.png)
 
@@ -103,7 +103,7 @@ First, we will start with a prepopulate Azure Cognitive Search knowledge base en
 
    ![Bot Framework Emulator is shown. Bot URL is set to http://localhost:3980/api/messages. The Connect button is highlighted.](media/bot-framework-emulator-connect.png)
 
-4. Write `What is the latest research?` and observe **(1)** how the bot will respond. You can see the API communication between the emulator and the bot in the list of logs **(2)**.
+4. Write `What is the latest research?` in the live chat and observe **(1)** how the bot will respond. You can see the API communication between the emulator and the bot in the list of logs **(2)**.
 
    ![A dialog between the bot and the user showing the latest COVID research is highlighted. Logs about API requests are shown.](media/bot-response-regex-getrecentresearch.png)
 
@@ -147,7 +147,7 @@ Our Bot is now using a **Regular expression recognizer** as its Language Underst
 
 3. Select the **Settings (1)** button from the top blue bar and then select the **Resources (2)** to access the Authoring resource information. Take note of the **Location (3)** and **Resource Key (4)**.
 
-   ![Settings button is highlighted in the conversation apps page.](media/primary_key.png)
+   ![Settings button is highlighted in the conversation apps page.](media/AI3-task5-01.png)
 
 4. Switch back to the Bot Framework Composer. Type in the **Resource Key** you noted from the previous step into the **LUIS Authoring key** field (1). Select the **location** you noted from the earlier step of the **LUIS region** selection list (2).
 
@@ -155,7 +155,7 @@ Our Bot is now using a **Regular expression recognizer** as its Language Underst
 
 5. Switch to the **Design (1)** view. Select **ResearchLookup (2)** trigger.
 
-   ![ResearchLookup Trigger is open. Trigger phrases are filled in with LUIS utterances. Condition is set to 0.6 scoring for predictions.](media/research-lookup-luis-trigger.png)
+   ![ResearchLookup Trigger is open. Trigger phrases are filled in with LUIS utterances. Condition is set to 0.6 scoring for predictions.](media/AI3-task5-02.png)
 
 6. Copy and paste the below language understanding code with a list of utterances with a single machine-learning entity type definition called `topic` into the **Trigger phrases** box **(3)**. All topic entities below are labeled with values that LUIS will use as part of the machine learning data set. This is a small set of data. We will have the chance to add more later in the lab, on the LUIS portal.
 
