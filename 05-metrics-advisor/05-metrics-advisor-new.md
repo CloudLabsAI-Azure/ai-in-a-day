@@ -55,15 +55,15 @@ You should follow all of the steps provided in this section _before_ taking part
    
     ![Launch Studio](media/select-upload-2.png)
 
-6. With the Azure Machine Learning studio and the Jupyter notebook environment open, select the `preparemetricsfeeddata.ipynb` from **Notebooks** under **Author**.
+6. With the Azure Machine Learning Studio and the Jupyter notebook environment open, select the `preparemetricsfeeddata.ipynb` from **Notebooks** under **Author**.
 
     ![preparemetricfeeddata notebook](media/notebook_05.png)
 
-7. You have to **Choose an available Jupyter kernel**, select **Python 3.8 - AzureML** from the drop-down and then select **Start Jupyter kernel**.
+7. You have to **Choose an available Jupyter kernel**, select **Python 3.8 - AzureML** from the drop-down, and then select **Start Jupyter kernel**.
 
     ![select kernal for preparemetricfeeddata notebook](media/AI-notebook-kernal-update.png)
     
->**Note**: Please ensure to click on **Authenticate** button if a pop-up notification comes like below.
+>**Note**: Please ensure to click on the **Authenticate** button if a pop-up notification comes like below.
 
    ![authenticate pop-up](media/AI-notebook-authenticate.png)
    
@@ -129,7 +129,7 @@ The high-level steps covered in the lab are:
    
      ![](media/AI-metric-advisor-latest.png)
 
-4. Once the validation is passed, click on **Create**. The deployment could take up to **60 minutes** to complete, although it normally finishes in less than **10 minutes**. Please wait until the deployment gets succeeded and then you can proceed with next task.
+4. Once the validation is passed, click on **Create**. The deployment could take up to **60 minutes** to complete, although it normally finishes in less than **10 minutes**. Please wait until the deployment gets succeeded and then you can proceed with the next task.
 
 ## Task 4 - Configure the "COVID cases by age group" Metrics Advisor data feed
 
@@ -140,7 +140,7 @@ The high-level steps covered in the lab are:
 
     ![Start the web-based workspace](./media/metrics-advisor-overview.png)
 
-3. On the Metrics Advisor welcome page, select your Directory, subscription and workspace information and select **Get started**. You are now prepared to create your first Data feed.
+3. On the Metrics Advisor welcome page, select your directory, subscription, and workspace information and select **Get started**. You are now prepared to create your first Data feed.
 
    > **Note:-** If you see that **Get Started** button is not available for you, it means that the metric advisor service is not fully available yet. Please wait for 20-30 minutes and try again after refreshing the page.
 
@@ -160,13 +160,13 @@ The high-level steps covered in the lab are:
 
     ![Data feed source properties](./media/adddatafeed1.png)
 
-6. Select the **Load data button** to validate the configured connection. You can find the **Load Data** option just below the **JSON format version** on the right side, so scroll in the right to see the button. If there is an error at this step, check that your connection string and blob template are correct and your Metrics Advisor instance is able to connect to the data source.
+6. Select the **Load data button** to validate the configured connection. You can find the **Load Data** option just below the **JSON format version** on the right side, so scroll to the right to see the button. If there is an error at this step, check that your connection string and blob template are correct and your Metrics Advisor instance is able to connect to the data source.
 
 7. Once the data schema is loaded and shown like below, configure the appropriate fields as Dimension, Measure or Timestamp, and select **Verify schema**.
 
     ![Schema configuration](./media/schemconfig1.png)
 
-8. Scroll down towards the bottom of the page. For **Automatic roll-up** settings, select the **I need the service to roll-up my data** **(1)** option, select the link **Set roll-up columns**, and include both dimensions **(3)**.
+8. Scroll down to the bottom of the page. For **Automatic roll-up** settings, select the **I need the service to roll-up my data** **(1)** option, select the link **Set roll-up columns**, and include both dimensions **(3)**.
 
     ![Automatic rollup settings](./media/automaticrollup1.png)
 
@@ -210,7 +210,7 @@ When detection is applied, you can select one of the metrics listed in the data 
     
     ![Change monitoring time window](./media/AI-metric-advisor-count-overview.png)
 
-4. Make sure you see the ingestion process completed on recent historical data **(1)** as illustrated in the picture below. When all data is ingested, in the left configuration section, under the **Metric-level configuration** **(2)**, change the default metric-level configuration to use Smart detection, and set the sensitivity level to 81 and use this configuration:
+4. Make sure you see the ingestion process completed on recent historical data **(1)** as illustrated in the picture below. When all data is ingested, in the left configuration section, under the **Metric-level configuration** **(2)**, change the default metric-level configuration to use Smart detection, set the sensitivity level to 81, and use this configuration:
     - Value **Out of boundary** is an anomaly 
     - Do not report the anomaly until **10%** of the latest **1** points are detected as anomalies.
 
@@ -369,7 +369,7 @@ Once the detection configuration for capturing valid anomalies is tuned, it's st
 
     ![](./media/setup-alert-rules-2.png)
 
-After configuring all the settings described in the section above, the system will orchestrate them together and automatically detect anomalies based on your inputted preferences. The goal is to get the best configuration that works for each metric, which can be achieved much easier through use of the new  **auto-tuning**  capability.
+After configuring all the settings described in the section above, the system will orchestrate them together and automatically detect anomalies based on your inputted preferences. The goal is to get the best configuration that works for each metric, which can be achieved much easier through the use of the new  **auto-tuning**  capability.
 
 
 ## Task 11 - Tune the configuration for a specific series or group
