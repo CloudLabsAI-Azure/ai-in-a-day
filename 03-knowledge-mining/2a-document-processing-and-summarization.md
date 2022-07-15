@@ -185,7 +185,7 @@ The high-level steps covered in the lab are:
     
     ![Select all cached items and copy them.](media/azure-storage-explorer-201.png)
 
-7. Navigate up to **comm_use_subset** by selecting the upward arrow and then double-click **pdf_json (1)**. Inside this folder, select **Paste (2)** to paste the 100 documents into the **pdf_json** folder. When it finishes, you should have **965 total documents (3)** .
+7. Navigate up to **comm_use_subset** by selecting the upward arrow and then double-click **pdf_json (1)**. Inside this folder, select **Paste (2)** to paste the 100 documents into the **pdf_json** folder. When it finishes, you should have **965 total documents (3)**.
 
     ![Navigate into the pdf_json folder.](media/upward-arrow01.png)
 
@@ -335,7 +335,7 @@ The high-level steps covered in the lab are:
 
     ![An analyzed document](media/lab2a-t6-frs19.png)
     
-25. For now, you have used custom models with Neural build mode. You can use any sample document which contains Tables and Signature to Test/Analyze using Template build mode. Please find the reference to explore more about Form Recognizer Studio: [Quickstart: Form Recognizer Studio - Azure Applied AI Services | Microsoft Docs](https://docs.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/quickstarts/try-v3-form-recognizer-studio)
+25. For now, you have used custom models with Neural build mode. You can use any sample document which contains Tables and Signatures to Test/Analyze using Template build mode. Please find the reference to explore more about Form Recognizer Studio: [Quickstart: Form Recognizer Studio - Azure Applied AI Services | Microsoft Docs](https://docs.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/quickstarts/try-v3-form-recognizer-studio)
 
 ## Task 7 - Document Summarization via Cognitive Service for Language integration
 
