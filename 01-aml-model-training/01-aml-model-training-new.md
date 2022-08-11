@@ -98,7 +98,7 @@ The high-level steps covered in the lab are:
     
 ## Task 4 - Prepare data for the Machine Learning process
 
-1. In the Azure Machine Learning Studio, open `1. Data Preparation.ipynb` notebook. You might get a pop-up of an important note. Check the box and click on continue.
+1. In the Jupyter application, navigate to the given path **\Users\odl_user_<inject key="DeploymentID" enableCopy="false"/>** and open `1. Data Preparation.ipynb` notebook from the . You might get a pop-up of an important note. Check the box and click on continue.
 
    ![Select Note Book](./media/ClickJupyterDataPrepNoteBook.png)
    
