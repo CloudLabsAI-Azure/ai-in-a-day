@@ -81,6 +81,8 @@ In this task, you are going to perform the semantic search using a query in [RES
    
 4. In the Overview page of the Postman app, click on **Create a request** under Get started.
 
+   > **Note:** If you are prompted with any new update available, click on Dismiss.
+
    ![Semantic search](media/lab2b-ssp12.png)
    
 5. Select the **POST (1)** Method from the drop-down. Enter request URL given below and make sure to replace the search service name as **aiinaday-cog-<inject key="DeploymentID" enableCopy="false"/>** and index name as **covid19temp**.
