@@ -136,7 +136,7 @@ The high-level steps covered in the lab are:
 1. Back to the Home page in Azure Portal, in the list of your recent resources, locate the Azure Metrics Advisor workspace and select it. If you are prompted to sign in again, use the same lab Azure credentials you used at the previous step.
 ![Open Azure Metrics Advisor](./media/metrics-advisor.png)
 
-2. On the Metrics Advisor Overview page, select the `Go to workspace` link in the first section to start working with the web-based [Metrics Advisor workspace](https://metricsadvisor.azurewebsites.net/).
+2. On the Metrics Advisor Overview page, select the `Go to your workspace` link in the first section to start working with the web-based [Metrics Advisor workspace](https://metricsadvisor.azurewebsites.net/).
 
     ![Start the web-based workspace](./media/metrics-advisor-overview.png)
 
@@ -146,7 +146,7 @@ The high-level steps covered in the lab are:
 
     ![Connect to Metrics Advisor workspace](./media/AI4.3.6.png)
 
-4. With the Metrics Advisor workspace opened, select the **Add datafeed** option from the left navigation menu.
+4. With the Metrics Advisor workspace opened, select the **Add Data Feed** option from the left navigation menu.
 
 5. Add the data feed by connecting to your time-series data source. Start by selecting the following parameters:
 
@@ -166,7 +166,7 @@ The high-level steps covered in the lab are:
 
     ![Schema configuration](./media/schemconfig1.png)
 
-8. Scroll down to the bottom of the page. For **Automatic roll-up** settings, select the **I need the service to roll-up my data** **(1)** option, select the link **Set roll-up columns**, and include both dimensions **(3)**.
+8. Scroll down to the bottom of the page. For **Automatic roll-up** settings, select the **I need the service to roll-up my data** option, select the link **Set roll-up columns**, and include both dimensions.
 
     ![Automatic rollup settings](./media/automaticrollup1.png)
 
@@ -198,13 +198,13 @@ When detection is applied, you can select one of the metrics listed in the data 
 - Set up notification for detected anomalies
 
 
-1. Select the **Visit data-feed: covid-ages** button to navigate to the data feed overview page.
+1. Select the **Visit data feed: covid-ages** button to navigate to the data feed overview page.
 
     ![Check the ingestion progress](./media/AI4.3.15.png)
 
 2. In the data feed page, select the `count` metric under the **Metrics** section.
 
-    ![Go to the count metric details page](./media/browsemetricdata1.1.png)
+    ![Go to the count metric details page](./media/upd-browsemetricdata1.1.png)
 
 3. To modify the inspected time window, change the start and end time of the interval from the calendar above the graphic representations.
     
@@ -216,7 +216,7 @@ When detection is applied, you can select one of the metrics listed in the data 
 
     > **Note:-** It can take 30 minutes to complete recent historical data, so please wait or continue with the next lab and come back later and continue this lab.
 
-    ![Metric-level configuration](./media/metric-level-configuration-smart1.png)
+    ![Metric-level configuration](./media/upd-metric-level-configuration-smart1.png)
 
 >Note
 >
@@ -307,9 +307,9 @@ Change threshold is normally used when metric data generally stay around a certa
 
 When you first view a metric's details, you can load a time series by letting Metrics Advisor choose one for you or by specifying values to be included for each dimension.
 
-3. You can also select time ranges and change the layout of the page (1)
+3. You can also select time ranges and change the layout of the page **(1)**.
 
-4. You can select the **Incidents** tab to view anomalies (2).
+4. You can select the **Incidents** tab to view anomalies **(2)**.
 
     ![Metrics drill down](./media/layout-browse.png)
 
@@ -341,10 +341,11 @@ You will be greeted with the **Auto tuning preference** page.
 
 2. For the  **anomaly pattern**  option, the system will list out different anomaly patterns that were observed with the metric. You can choose which ones you're interested in and select them, and the unselected patterns will have their sensitivity **reduced** by default.
 
-    ![](./media/auto-tuning-select-1.png)
 
 3. Select the **Apply Pattern preference** option **(1)**, followed by selecting **Spike** **(2)** as the anomaly pattern, and then select **Next** **(3)** to go to the next section.
 
+    ![](./media/auto-tuning-select-1.png)
+   
 ### Subtask 2 - Tune the configuration for selected anomaly patterns
 
 The next step is to fine-tune the configuration for each. There's a global **sensitivity** that is applied for all series. For each anomaly pattern, you can tune the **adjustment**, which is based on the global **sensitivity**.

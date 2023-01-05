@@ -33,25 +33,23 @@ The way organizations are building conversational systems is evolving, with bots
 
    ![](media/power-virtual-agent-sign-up.png)
 
-2. Enter your email on the **Let's get you started** and select **Next**. 
+2. On the **Let's get you started** pop-up, make sure your email is selected and click on **Continue**. 
 
-   ![](media/PVA-sign-up-1.png)
+   ![](media/upd-PVA-sign-up-1.png)
 
    > **Note**: You can retrieve your Email/username and Password from the environment details tab.
 
-3. Select **Sign in** and enter your Password and select **sign in**.
+3. Under **Create your account**, choose your respective region from the drop-down menu and then click on **Get started**.
+
+   ![](media/upd-PVA-select-region.png)
 
 4. Once **Signed in**, select **Get started** under the **Confirmation Details**.
 
-   ![](media/power-virtual-agent-sign-up-1.png)
+   ![](media/upd-power-virtual-agent-sign-up-1.png)
 
-5. You have now successfully signed up for **Power Virtual Agents**
+5. You have now successfully signed up for **Power Virtual Agents**.
 
-6. On the **Welcome to Power Virtual Agents** page, choose your respective region and select **Get Started**.
-
-   ![](media/PVA-select-region.png)
-
-7. On the **Create a Chatbot** page enter the following details:
+6. On the **Create a Chatbot** page enter the following details:
 
    - **Name of your bot**: Enter **AI-Bot-<inject key="DeploymentID" enableCopy="false"/>**.
    - **What language will your bot speak?**: Select **English (US)** from the dropdown.
@@ -60,7 +58,7 @@ The way organizations are building conversational systems is evolving, with bots
 
    ![](media/ai-L3-t3-s7.png)
 
-8. Once the Bot is created you will see the Power virtual agents page.
+7. Once the Bot is created you will see the Power virtual agents page.
 
    ![](media/after-bot-creation.png)
 
