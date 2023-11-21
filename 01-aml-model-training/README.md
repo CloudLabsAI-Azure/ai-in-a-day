@@ -1,5 +1,5 @@
 # Lab 1 - Azure Machine Learning Model Training
-
+test
 This lab covers clustering with Azure Machine Learning, Automated ML, and model explainability.
 
 ## Task 1 - Explore dashboard of COVID-19 data
