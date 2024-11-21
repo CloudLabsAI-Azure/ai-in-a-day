@@ -130,15 +130,15 @@ The high-level steps covered in the lab are:
 
 1. In the Jupyter application, navigate to the given path **\Users\odl_user_<inject key="DeploymentID" enableCopy="false"/>** and open `1. Data Preparation.ipynb` notebook.
 
-   ![Select Note Book](./media/SHC3.png)
+   ![Select Note Book](./media/IMG015.png)
    
 2. On Jupiter page, select **Kernel (1)**, then **Change kernel (2)** and make sure **Python (aiw-ai-kernel) (3)** is selected.
 
-   ![](./media/image01.png)
+   ![](./media/IMG011.png)
 
 3. Execute the cells inside `1. Data Preparation.ipynb` notebook one by one (Click on the 'Run' button or by using either Ctrl + Enter to stay on the same cell, or Shift + Enter to advance to the next cell) and observe the results of each cell execution.
 
-   ![Run Note Book Cell](./media/SHC4.png)
+   ![Run Note Book Cell](./media/IMG012.png)
    ![Note Book Cell Output](./media/SHC4.1.png)
    
  4. Please make sure to read the cells carefully and update the storage account name wherever required with **<inject key="Storage Account Name" enableCopy="false"/>**
@@ -229,7 +229,7 @@ In this task, we'll use Azure Automated ML to train a machine learning model cap
 
    ![View explanations](media/L1-T6-S4.png)
 
-   <validation step="46d5c33f-126f-4f3c-9a15-a4596a0b876c" />
+   <validation step="46d5c33f-126f-4f3c-9a15-a4596a0b876c"/>
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
@@ -251,15 +251,15 @@ Responsible AI is a governance framework that documents how a specific organizat
 
 1. In the Jupyter application, navigate to the given path **\Users\odl_user_<inject key="DeploymentID" enableCopy="false"/>** and open `erroranalysis-dashboard-regression-superconductor.ipynb` notebook.
 
-    ![Select Note Book](./media/ai-img0.png)
+    ![Select Note Book](./media/IMG016.png)
    
 1. Once the notebook is opened in the Jupyter application, select **Kernel** **(1)**. Then select **Change kernel** **(2)** and make sure to select **Python (aiw-ai-kernel) (3)**.
 
-    ![](./media/ai-img1.png)
+    ![](./media/IMG013.png)
 
 1. Execute the cells inside `erroranalysis-dashboard-regression-superconductor.ipynb` notebook one by one (Click on the **Run** button or by using either Ctrl + Enter to stay on the same cell, or Shift + Enter to advance to the next cell or) and observe the results of each cell execution.
 
-    ![Run Note Book Cell](./media/ai-img2.png)
+    ![Run Note Book Cell](./media/IMG014.png)
    
 1. Please make sure to read the cells carefully and run them one by one. Click on the **Endpoint** URL at the end of the notebook before moving to the next task.
 
