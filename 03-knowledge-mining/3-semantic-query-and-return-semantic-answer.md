@@ -131,7 +131,7 @@ In this task, you are going to perform the semantic search using a query in [RES
 
     ![Semantic search](media/lab2b-ssp16.png)
 
-   <validation step="5f84e298-cac3-40e0-aad7-2eea5eefe286" />
+   <validation step="f8d865b8-5e35-495f-97ac-fe80f35e8465" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.

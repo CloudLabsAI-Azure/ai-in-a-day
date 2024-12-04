@@ -108,7 +108,7 @@ The high-level steps covered in the lab are:
 
     ![The Create-AzureSearchIndex function has been run to create a new index.](media/create-azuresearchindex-use.png)
 
-   <validation step="6e7f9bb9-9bed-4f51-ac7b-c6aa82222f50" />
+   <validation step="9eacb23e-c4d5-4922-bd9d-3354b1a42245" />
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
@@ -167,7 +167,7 @@ The high-level steps covered in the lab are:
 
     >**Note**: If you face any issues on validation, please perform the next steps till the end of this lab and then click on validate button again.
 
-    <validation step="b927b6a3-f2fd-4047-9a54-233ef39525c5" />
+    <validation step="0e46d62d-b04e-490f-a884-634bda4e6a21" />
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
@@ -375,7 +375,7 @@ The high-level steps covered in the lab are:
     
 1. For now, you have used custom models with Neural build mode. You can use any sample document which contains Tables and Signatures to Test/Analyze using Template build mode. Please find the reference to explore more about Document Intelligence Studio: [Quickstart: Document Intelligence Studio - Azure Applied AI Services | Microsoft Docs](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview?view=doc-intel-3.1.0)
 
-    <validation step="24474dca-c3ab-413f-ba34-eb278f3c895f" />
+    <validation step="cfc886b1-957c-4e00-9c9c-1314547fe546" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
@@ -428,7 +428,7 @@ In this task, we are creating a text summarization application with the client l
    
    ![summarization](media/lab2a-t7-summ-results.png)
 
-   <validation step="9783aabe-40ad-4cba-b3b6-6b1a967e27c6" />
+   <validation step="40bf7076-a011-4d13-8381-fb496266f4b3" />
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.

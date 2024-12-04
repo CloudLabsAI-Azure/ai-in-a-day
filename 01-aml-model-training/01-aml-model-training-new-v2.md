@@ -229,7 +229,7 @@ In this task, we'll use Azure Automated ML to train a machine learning model cap
 
    ![View explanations](media/L1-T6-S4.png)
 
-   <validation step="46d5c33f-126f-4f3c-9a15-a4596a0b876c"/>
+   <validation step="b80ae9e2-4269-4650-87a0-614583bb09d8"/>
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
