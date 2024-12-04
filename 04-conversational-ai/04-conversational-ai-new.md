@@ -111,7 +111,7 @@ The way organizations are building conversational systems is evolving, with bots
 
     ![](media/cai-l4-t4-s13new.png)
 
-    <validation step="1f3092c6-421b-4e88-8fe6-b5cb70ca1396" />
+    <validation step="cedf9089-2e05-4d9d-b966-6faa282f4559" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
