@@ -229,14 +229,12 @@ In this task, we'll use Azure Automated ML to train a machine learning model cap
 
    ![View explanations](media/L1-T6-S4.png)
 
-   <validation step="b80ae9e2-4269-4650-87a0-614583bb09d8"/>
+   <validation step="b80ae9e2-4269-4650-87a0-614583bb09d8" />
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Task 7 - Generate a Responsible AI dashboard
 
