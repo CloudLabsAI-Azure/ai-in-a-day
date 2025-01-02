@@ -1,4 +1,8 @@
-# Release Notes - FY23
+# Release Notes - New
+
+### 31 December 2024
+
+- Updated cognitive search to AI Search.
 
 ### 29 November 2023
 
