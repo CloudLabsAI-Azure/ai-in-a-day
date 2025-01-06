@@ -23,22 +23,22 @@ The semantic ranking is an extension of the query execution pipeline that improv
 
 2. Locate **Search service** resource **aiinaday-cog-<inject key="DeploymentID" enableCopy="false"/>** and select it.
 
-   ![The Search service is highlighted from the list of services in the AI-in-a-Day Resource Group](media/inn6.png)
+    ![The Search service is highlighted from the list of services in the AI-in-a-Day Resource Group](media/inn6.png)
    
 3. Select the **Semantic ranker (1)** under settings in the left menu. From the Semantic ranker pane, select the **Free** tier by clicking on **Select Plan (2)**. Once you click on a select plan, a free tier plan will be selected for the Semantic search.
 
-   ![Semantic search service to be selected](media/inn16.png)
+    ![Semantic search service to be selected](media/inn16.png)
 
    
 ## Task 2 - Creating a Semantic Configuration
 
 1. Navigate to the **Search service** resource **aiinaday-cog-<inject key="DeploymentID" enableCopy="false"/>** and then select **Indexes (1)**. You will be able to see the list of indexes, click on the **covid19temp (2)** index for adding semantic configuration.
 
-   ![Semantic config](media/AI4.png)
+    ![Semantic config](media/AI4.png)
    
 2. In the **covid19temp** index pane, select **Semantic configurations** **(1)** and click on **+ Add semantic configuration** **(2)**.
 
-   ![Semantic config](media/inn20.png)
+    ![Semantic config](media/inn20.png)
 
 3. You will see a tab appear on the right side with **New semantic configuration**. Enter the below values:
 
@@ -51,28 +51,28 @@ The semantic ranking is an extension of the query execution pipeline that improv
   
    Click on **Save** **(5)**.
   
-   ![Semantic configuration](media/lab2b-new-sc.png)
+    ![Semantic configuration](media/lab2b-new-sc.png)
   
 4. You will be able to see the added semantic configuration **(1)** under the Semantic Configurations tab. Click on **Save** **(2)** to save the changes made.
 
-   ![Semantic configuration](media/inn21.png)
+    ![Semantic configuration](media/inn21.png)
 
 ## Task 3 - Semantic search using the semantic configuration in Azure Portal
 
 1. Navigate to **Overview** **(1)** of **Search service** resource **aiinaday-cog-<inject key="DeploymentID" enableCopy="false"/>** and then click on **Search explorer (2)**.
 
-   ![Semantic search](media/inn17.png)
+    ![Semantic search](media/inn17.png)
    
 2. In the **Search explorer** pane, select the Index **covid19temp** **(1)**.Click on the **Query options** **(2)**.
-  ![Semantic search](media/L3T3S2.png)
+    ![Semantic search](media/L3T3S2.png)
 
 3. In a popup on the right side, turn **On** **(1)** the Semantic ranker, select **my-semantic-config** **(2)** from the drop-down under Semantic configuration, which you created in the previous task. Click on **Close** **(3)**. 
 
-   ![Semantic search](media/L3T3S3.png)
+    ![Semantic search](media/L3T3S3.png)
    
 4. Click on **Search** **(1)**.Wait for a few seconds to complete the search and scroll down to the **Results** **(2)**part on the same page. You will be able to see the output for the semantic search using semantic configuration.
 
-   ![Semantic search](media/L3T3S4.png)
+    ![Semantic search](media/L3T3S4.png)
    
 ## Task 4 - Semantic Query using REST APIs
 
@@ -98,7 +98,7 @@ In this task, you are going to perform the semantic search using a query in [RES
 
    `https://[search-service-name].search.windows.net/indexes/[index-name]/docs/search` **(2)**.
    
-   ![Semantic search](media/lab2b-ssp13.png)
+    ![Semantic search](media/lab2b-ssp13.png)
 
 1. In the Parameters section, enter the below values for **api-version** **(1)** and **api-key** **(2)**.
 
@@ -131,13 +131,12 @@ In this task, you are going to perform the semantic search using a query in [RES
 
     ![Semantic search](media/lab2b-ssp16.png)
 
-   <validation step="5f84e298-cac3-40e0-aad7-2eea5eefe286" />
-
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+   <validation step="5f84e298-cac3-40e0-aad7-2eea5eefe286" />
 
    >**Note**: If you face an issue that the request failed with 401 Forbidden or 403 Forbidden error, this might be caused due to passing invalid authentication credentials or an invalid api-key. For more information, reference this link ```https://docs.microsoft.com/en-us/rest/api/searchservice/http-status-codes#common-http-status-codes```
 
