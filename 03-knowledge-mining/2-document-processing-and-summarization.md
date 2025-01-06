@@ -256,13 +256,13 @@ The high-level steps covered in the lab are:
     
 1. On the Resource Sharing (CORS) page, ensure that you are on the **Blob service** **(1)** tab, and enter the following values into the table **(2)** and then select **Save** **(3)** to save the CORS settings.  
 
-   | Parameter                   | Value                                              |
-   | --------------------------- | -------------------------------------------------- |
-   | Allowed origins             | Enter `https://formrecognizer.appliedai.azure.com` |
-   | Allowed methods             | Select all of the available methods.               |
-   | Allowed headers             | Enter `*`                                          |
-   | Exposed headers             | Enter `*`                                          |
-   | Max age                     | Enter `200`                                        |
+    | Parameter                   | Value                                              |
+    | --------------------------- | -------------------------------------------------- |
+    | Allowed origins             | Enter `https://formrecognizer.appliedai.azure.com` |
+    | Allowed methods             | Select all of the available methods.               |
+    | Allowed headers             | Enter `*`                                          |
+    | Exposed headers             | Enter `*`                                          |
+    | Max age                     | Enter `200`                                        |
 
     ![The CORS options are set for the storage account](media/storage-cors-blob.png)
 
