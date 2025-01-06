@@ -108,12 +108,12 @@ The high-level steps covered in the lab are:
 
     ![The Create-AzureSearchIndex function has been run to create a new index.](media/create-azuresearchindex-use.png)
 
-   <validation step="6e7f9bb9-9bed-4f51-ac7b-c6aa82222f50" />
-
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="6e7f9bb9-9bed-4f51-ac7b-c6aa82222f50" />
 
 ## Task 4 - Querying Azure Search Indexes
 
@@ -131,49 +131,46 @@ The high-level steps covered in the lab are:
 
     ![The list of Azure Search indexes.](media/AI1.png)
 
-
-
-6. Once documents are available, Navigate to Overview **(1)** of Search service and then select **Search Explorer (2)** to open up the Search Explorer.
+5. Once documents are available, Navigate to Overview **(1)** of Search service and then select **Search Explorer (2)** to open up the Search Explorer.
 
     ![The Search Explorer option is selected.](media/innovate4.png)
 
-7. Choose the **covid19temp (1)** index and enter `RNA interference`**(2)** into the Query string input box, and then select **Search (3)**. This will return the documents which include the phrase "RNA interference."
+6. Choose the **covid19temp (1)** index and enter `RNA interference`**(2)** into the Query string input box, and then select **Search (3)**. This will return the documents which include the phrase "RNA interference."
 
     ![Articles with the phrase RNA interference.](media/L2T4S6.png)
 
-8. We can also see how many articles match a certain search string. In the Query string input box, enter the phrase `Brazil&$count=true` **(1)** and then select **Search (2)**.  This will return 53 documents.
+7. We can also see how many articles match a certain search string. In the Query string input box, enter the phrase `Brazil&$count=true` **(1)** and then select **Search (2)**.  This will return 53 documents.
 
     ![53 articles reference Brazil.](media/image03.png)
 
-9. Each document returns a large number of fields, but we can specify the fields we would like to see. In the Query string input box, enter the phrase `UNC Chapel Hill&$select=metadata/authors, metadata/title` **(1)** and then select **Search (2)**. This will return the title as well as detailed information on each author.
+8. Each document returns a large number of fields, but we can specify the fields we would like to see. In the Query string input box, enter the phrase `UNC Chapel Hill&$select=metadata/authors, metadata/title` **(1)** and then select **Search (2)**. This will return the title as well as detailed information on each author.
 
     ![Paper titles and authors referencing UNC Chapel Hill.](media/image04.png)
 
-10. The Azure Search service can also generate a demo application. Return to the search service and select the **covid19temp** index.
+9. The Azure Search service can also generate a demo application. Return to the search service and select the **covid19temp** index.
 
     ![The covid19temp index is selected.](media/inn8.png)
 
-11. Select the **Create Demo App** option.
+10. Select the **Create Demo App** option.
 
     ![The Create Demo App option is selected.](media/lab2a-task4-step10.png)
 
-12. On the first tab, select `metadata.title` **(1)** for the Title and `abstract.text` **(2)** for the Description. Then select **Next** twice and click on **Create Demo App (3)**. After the prompt, select **Download** to download an HTML file named `AzSearch.html`.
+11. On the first tab, select `metadata.title` **(1)** for the Title and `abstract.text` **(2)** for the Description. Then select **Next** twice and click on **Create Demo App (3)**. After the prompt, select **Download** to download an HTML file named `AzSearch.html`.
 
     ![Create a demo app.](media/create-demo-app-1.1.png)
 
-13. Open the demo app HTML file. In the search box, enter the phrase **RNA interference (1)** and select the **Search icon (2)**. This will return 497 papers relating to RNA interference.
+12. Open the demo app HTML file. In the search box, enter the phrase **RNA interference (1)** and select the **Search icon (2)**. This will return 497 papers relating to RNA interference.
 
     ![Use the demo app.](media/L2T4S12.png)
 
     >**Note**: If you face any issues on validation, please perform the next steps till the end of this lab and then click on validate button again.
-
-    <validation step="b927b6a3-f2fd-4047-9a54-233ef39525c5" />
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+    <validation step="b927b6a3-f2fd-4047-9a54-233ef39525c5" />
 
 ## Task 5 - Updating Azure Search Indexes
 
@@ -245,17 +242,17 @@ The high-level steps covered in the lab are:
 
 1. Navigate to [the Azure portal](https://portal.azure.com) and log in with your credentials. Then, select **Resource groups**.
 
-   ![Open Azure resource group](media/SHC2a.3.1.png)
+    ![Open Azure resource group](media/SHC2a.3.1.png)
 
 1. Select the **AI-in-a-Day** resource group.
 
 1. Select the **aiinadaystorage<inject key="DeploymentID" enableCopy="false"/>** Storage account.
 
-   ![The Storage account is highlighted from the list of services in the AI-in-a-Day Resource Group](media/inn15.png)
+    ![The Storage account is highlighted from the list of services in the AI-in-a-Day Resource Group](media/inn15.png)
 
 1. Under **Settings**, navigate to the **Resource sharing (CORS)** page. 
 
-   ![The CORS is highlighted from the list of services in the AI-in-a-Day Resource Group](media/storaheaccount-CORS.png)
+    ![The CORS is highlighted from the list of services in the AI-in-a-Day Resource Group](media/storaheaccount-CORS.png)
     
 1. On the Resource Sharing (CORS) page, ensure that you are on the **Blob service** **(1)** tab, and enter the following values into the table **(2)** and then select **Save** **(3)** to save the CORS settings.  
 
@@ -267,20 +264,20 @@ The high-level steps covered in the lab are:
    | Exposed headers             | Enter `*`                                          |
    | Max age                     | Enter `200`                                        |
 
-  ![The CORS options are set for the storage account](media/storage-cors-blob.png)
+    ![The CORS options are set for the storage account](media/storage-cors-blob.png)
 
 
 1. Return to the Azure Portal page with your storage account. Navigate back to the **AI-in-a-Day** resource group and select the Document Intelligence resource **aiinaday-formrecog<inject key="DeploymentID" enableCopy="false"/>**.
 
-   ![The AI Services service is selected](media/inn11.png)
+    ![The AI Services service is selected](media/inn11.png)
 
 1. Select the **Keys and Endpoint** **(1)** option under Resource Management and click on **Show Keys** **(2)**. Then, copy the value for **KEY 1** **(3)** and the **Endpoint** **(4)**. Paste these into a text file for later use.
 
-   ![The AI Services key and endpoint are selected](media/inn12.png)
+    ![The AI Services key and endpoint are selected](media/inn12.png)
 
 1. Navigate to the [Document Intelligence Studio](https://formrecognizer.appliedai.azure.com/), scroll-down to **Custom models** and select **Get Started** under **Custom model**. Use the credentials provided in the Environment Details to Sign-in.
 
-   ![Create new custom model](media/updated-document-ai.png)
+    ![Create new custom model](media/updated-document-ai.png)
 
 1. In the Custom models page, under **My Project** click on **+ Create a project**.
   
@@ -317,71 +314,70 @@ The high-level steps covered in the lab are:
 
 1. Review the details and click on **Create project**.
 
-   ![Project](media/SHC2a.6.13.png)
+    ![Project](media/SHC2a.6.13.png)
   
 1. After creating a new project, you will be sent to the project for tagging in Label data. Select **+Add a Field** **(1)** to create a new field click on **Field** **(2)**, type `Abstract` in the Field, and hit enter. By this, you have created a new Abstract Field.
 
-   ![The Abstract tag has been created](media/innovate5.png)
+    ![The Abstract tag has been created](media/innovate5.png)
     
-   ![The Abstract tag has been created](media/lab2a-t6-frs9.png)
+    ![The Abstract tag has been created](media/lab2a-t6-frs9.png)
 
 1. Click on **Run layout**.Wait for the layout to be run for the first document and locate the document's abstract. Note that for some documents, the abstract is on the second page. Then, move on to the next document. We will tag each of the five papers, so navigate to each in turn, allowing the layout to be run. In order for tagging to be successful, we must first run the layout of a document, navigate to another document, and return to this first document before we begin tagging. Layout generation happens once per document, after which we can return to it and tag our abstract.
 
-   ![Running layout for a document](media/L2-T6-S15.png)
+    ![Running layout for a document](media/L2-T6-S15.png)
 
-   ![Running layout for a document](media/lab2a-t6-frs7.png)
+    ![Running layout for a document](media/lab2a-t6-frs7.png)
 
 1. Return to the second PDF and select each word in the **Abstract** section. After highlighting this, select the **Abstract** tag to tag this section. Note that you will need to select each word individually rather than selecting a box. After selecting the **Abstract** tag, you should see a tag logo next to the PDF. If you see the tag logo, this means that tagging was successful for this document.
 
-   ![The first PDF has been viewed, and the second PDF has been tagged](media/L2-T6-S16.1.png)
+    ![The first PDF has been viewed, and the second PDF has been tagged](media/L2-T6-S16.1.png)
 
 1. Return to the first PDF and highlight the word **ABSTRACT** and the abstract. If the abstract is lengthy, as in this example, it is okay to include just the first paragraph. Then, select the **Abstract** tag to tag this document. Ensure that the viewed icon (an eye) changes to a tag icon. If it does not change to a tag but instead changes to a blank spot without any icons, tagging was unsuccessful. In the event that tagging is unsuccessful, select another document, wait for it to have its layout run, and then return to the prior document and try tagging again.
 
-   ![The first PDF has been tagged](media/L2-T6-S17.png)
+    ![The first PDF has been tagged](media/L2-T6-S17.png)
 
 1. Continue tagging until all five of the top papers are tagged. Once we have tagged five documents, select the **Train** option.
     
-   ![The first five PDFs have been tagged](media/L2-T6-S18.png)
+    ![The first five PDFs have been tagged](media/L2-T6-S18.png)
 
 1. In a pop-up to Train a new model, enter **Abstracts (1)** as the ModelID, and select the **Neural (Recommended) (2)** from the drop-down as Build Mode. Then click on **Train (3)**.
 
-   ![The option to train a model has been selected](media/form-model.png)
+    ![The option to train a model has been selected](media/form-model.png)
 
 1. Training a model may take up to 45-60 minutes to succeed. Click on **Go to models**. 
 
-   ![The option to train a model has been selected](media/lab2a-t6-frs14.png)
+    ![The option to train a model has been selected](media/lab2a-t6-frs14.png)
 
     >**Note**: As Training a model will take up to 45-60 minutes to succeed. No need to wait for it, you can continue with next Lab. Come back later and review it after an hour.
 
 1. After the model has finished training, you will see that the Status has succeeded.  Although the estimated accuracy is not great, we will use this model.
 
-   ![The Abstracts model has been trained](media/lab2a-t6-frs15.png)
+    ![The Abstracts model has been trained](media/lab2a-t6-frs15.png)
 
 1. From the left menu, select the **Test (1)**. Click on **Browse for a file (2)**. 
 
-   ![An analyzed document](media/innovate6.png)
+    ![An analyzed document](media/innovate6.png)
     
 1. In the Upload Files pop-up, Navigate to `C:\Temp\AzureSearch\`, select `2020.09.25.20201616v1.pdf` file **(2)** and then click on **Open** **(3)**.
     
-   ![An analyzed document](media/innovate7.png)
+    ![An analyzed document](media/innovate7.png)
    
 1. Choose `2020.09.25.20201616v1.pdf` file, select **Run Analysis (1)**. Note that the abstract is on **page 2 (2)** of the PDF. View the **Results (3)** on the right side of the page.
     
-   ![An analyzed document](media/innovate8.png)
+    ![An analyzed document](media/innovate8.png)
 
 1. Select **Result (1)** and click on **download icon (2)** to download JSON file. Find the location where the script was downloaded and observe the result code.
 
-   ![An analyzed document](media/lab2a-t6-frs19.1.png)
+    ![An analyzed document](media/lab2a-t6-frs19.1.png)
     
 1. For now, you have used custom models with Neural build mode. You can use any sample document which contains Tables and Signatures to Test/Analyze using Template build mode. Please find the reference to explore more about Document Intelligence Studio: [Quickstart: Document Intelligence Studio - Azure Applied AI Services | Microsoft Docs](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview?view=doc-intel-3.1.0)
-
-    <validation step="24474dca-c3ab-413f-ba34-eb278f3c895f" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+    <validation step="24474dca-c3ab-413f-ba34-eb278f3c895f" />
 
 ## Task 7 - Document Summarization via AI Service for Language Integration
 
@@ -415,7 +411,7 @@ In this task, we are creating a text summarization application with the client l
 
 6. Replace the **key** and **endpoint** in the file with AI services multi-service account named **aiinaday-cogsv<inject key="DeploymentID" enableCopy="false"/>** which you have already copied in step-2 of the same task and finally save the file.
     
-   ![summarization](media/lab2a-t7-summarization.png) 
+    ![summarization](media/lab2a-t7-summarization.png) 
 
 7. Navigate to the command prompt and run the following commands.
 
@@ -426,14 +422,14 @@ In this task, we are creating a text summarization application with the client l
    python summarization.py
    ```
    
-   ![summarization](media/lab2a-t7-summ-results.png)
+    ![summarization](media/lab2a-t7-summ-results.png)
 
-   <validation step="9783aabe-40ad-4cba-b3b6-6b1a967e27c6" />
-
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="9783aabe-40ad-4cba-b3b6-6b1a967e27c6" />
 
 You can find more references about Document Summarization from here: [Quickstart: Get started with Language Studio - Azure AI Services | Microsoft Docs](https://docs.microsoft.com/en-us/azure/AI-services/language-service/language-studio). Use this article to learn about Language Studio, and testing features of Azure AI Service for Language Integration.
 
