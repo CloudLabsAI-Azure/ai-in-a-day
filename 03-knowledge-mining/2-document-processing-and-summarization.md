@@ -266,7 +266,6 @@ The high-level steps covered in the lab are:
 
     ![The CORS options are set for the storage account](media/storage-cors-blob.png)
 
-
 1. Return to the Azure Portal page with your storage account. Navigate back to the **AI-in-a-Day** resource group and select the Document Intelligence resource **aiinaday-formrecog<inject key="DeploymentID" enableCopy="false"/>**.
 
     ![The AI Services service is selected](media/inn11.png)
