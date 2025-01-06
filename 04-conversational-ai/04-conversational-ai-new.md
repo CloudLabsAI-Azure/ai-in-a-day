@@ -39,13 +39,13 @@ The way organizations are building conversational systems is evolving, with bots
    
 1. Under the **Confirmation details (1)**, click on **Get Started (2)**.
 
-    ![](media/upd-l3-t3-s4.png)
+   ![](media/upd-l3-t3-s4.png)
 
 1. You have now successfully signed up for **Microsoft Copilot Studio**.
 
 1. On the **Welcome to Microsoft Copilot Studio (1)** page, choose your respective region and select **Get Started (2)**.
 
-    ![](media/L4T2S6.png)
+   ![](media/L4T2S6.png)
 
 1. On the **Create a Copilot** page enter the following details:
 
@@ -57,7 +57,7 @@ The way organizations are building conversational systems is evolving, with bots
 
 1. Once the Bot is created you will see the Copilot Studio page.
 
-    ![](media/test-copilot0.1-1.jpg)
+   ![](media/test-copilot0.1-1.jpg)
 
 ## Task 3 - Create a New Topic
 
@@ -81,7 +81,7 @@ The way organizations are building conversational systems is evolving, with bots
 
 6. Enter the question as "**What type of food would you like to order?**" **(1)** and under options for users, click on **New option** **(2)** to add types of food. Add **Chinese** and **Italian** **(3)** as shown in the below screenshot.
 
-    ![](media/cai-l4-t4-s6.png)
+   ![](media/cai-l4-t4-s6.png)
    
 7. Now under Condition of Chinese, click on **+** to Add node.
 
@@ -97,27 +97,26 @@ The way organizations are building conversational systems is evolving, with bots
 
 10. Now under Condition of Italian, click on **+** to Add node.
 
-    ![](media/cai-l4-t4-s10.png)
+   ![](media/cai-l4-t4-s10.png)
 
 11. Select **Send a message** from the drop-down while adding a node.
 
-    ![](media/cai-l4-t4-s11.png)
+   ![](media/cai-l4-t4-s11.png)
 
 12. Enter the Italian food items given here in the message section: **Pizza, Pasta, Truffles**
 
-    ![](media/cai-l4-t4-s12.png)
+   ![](media/cai-l4-t4-s12.png)
 
 13. Review the topic trigger, and click on **Save** from the right-top corner to save the topic.
 
-    ![](media/cai-l4-t4-s13new.png)
-
-    <validation step="1f3092c6-421b-4e88-8fe6-b5cb70ca1396" />
+   ![](media/cai-l4-t4-s13new.png)
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+   <validation step="1f3092c6-421b-4e88-8fe6-b5cb70ca1396" />
 
 ## Task 4 - Test your Copilot
 

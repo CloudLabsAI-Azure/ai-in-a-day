@@ -232,10 +232,11 @@ In this task, we'll use Azure Automated ML to train a machine learning model cap
    <validation step="46d5c33f-126f-4f3c-9a15-a4596a0b876c"/>
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="46d5c33f-126f-4f3c-9a15-a4596a0b876c" />
 
 
 ## Task 7 - Generate a Responsible AI dashboard
@@ -251,33 +252,33 @@ Responsible AI is a governance framework that documents how a specific organizat
 
 1. In the Jupyter application, navigate to the given path **\Users\odl_user_<inject key="DeploymentID" enableCopy="false"/>** and open `erroranalysis-dashboard-regression-superconductor.ipynb` notebook.
 
-    ![Select Note Book](./media/IMG016.png)
+   ![Select Note Book](./media/IMG016.png)
    
 1. Once the notebook is opened in the Jupyter application, select **Kernel** **(1)**. Then select **Change kernel** **(2)** and make sure to select **Python (aiw-ai-kernel) (3)**.
 
-    ![](./media/IMG0011.png)
+   ![](./media/IMG0011.png)
 
 1. Execute the cells inside `erroranalysis-dashboard-regression-superconductor.ipynb` notebook one by one (Click on the **Run** button or by using either Ctrl + Enter to stay on the same cell, or Shift + Enter to advance to the next cell or) and observe the results of each cell execution.
 
-    ![Run Note Book Cell](./media/IMG014.png)
+   ![Run Note Book Cell](./media/IMG014.png)
    
 1. Please make sure to read the cells carefully and run them one by one. Click on the **Endpoint** URL at the end of the notebook before moving to the next task.
 
-    ![Note Book Cell Output](./media/ai-img3.png)
+   ![Note Book Cell Output](./media/ai-img3.png)
 
 ## Task 8 -  Explore the Responsible AI dashboard
 
 1. Once you click on the endpoint, you will be navigated to the new tab. Select **Tree map (1)** from the drop-down next to **Error Explorer**, the tree visualization uses the mutual information between each feature and the error to best separate error instances from success instances hierarchically in the data. This simplifies the process of discovering and highlighting common failure patterns. Choose the **Mean squared error (2)** for **Select metric** and click on **Explanation** to view the results. 
 
-    ![Run Note Book Cell](./media/ai-img4.png)
+   ![Run Note Book Cell](./media/ai-img4.png)
  
 1. On the **Explanation** page, observe the box plot graph representing the data. In addition, you can explore the available options to view different representations of data.
 
-    ![Run Note Book Cell](./media/ai-img5.png)
+   ![Run Note Book Cell](./media/ai-img5.png)
 
 1. Navigate back to **Error explorer** page, and choose **Heat map (1)** form the drop-down next to **Error Explorer**. Choose **number_of_elements (2)** for **Rows: Feature 1** , **mean_atomic_mass (3)** for **Columns: Feature 2** and Set **Select mertic** to **Mean absolute error (4)** .
 
-    ![Run Note Book Cell](./media/image02.png)
+   ![Run Note Book Cell](./media/image02.png)
 
 ## Summary
 
