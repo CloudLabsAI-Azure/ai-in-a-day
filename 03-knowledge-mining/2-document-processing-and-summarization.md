@@ -127,7 +127,7 @@ The high-level steps covered in the lab are:
 
     ![The Search service is highlighted from the list of services in the AI-in-a-Day Resource Group](media/inn6.png)
 
-4. Select the **Indexes** tab and ensure that you have two indexes created. If the Document Count is 0 for either, wait a couple of minutes and select **Refresh** until the document count appears.
+4. Select the **Indexes** tab under Search management and ensure that you have two indexes created. If the Document Count is 0 for either, wait a couple of minutes and select **Refresh** until the document count appears.
 
     ![The list of Azure Search indexes.](media/AI1.png)
 
@@ -155,22 +155,13 @@ The high-level steps covered in the lab are:
 
     ![The Create Demo App option is selected.](media/lab2a-task4-step10.png)
 
-11. On the first tab, select `metadata.title` **(1)** for the Title and `abstract.text` **(2)** for the Description. Then select **Next** twice and click on **Create Demo App (3)**. After the prompt, select **Download** to download an HTML file named `AzSearch.html`.
+11. On the first tab, select `metadata.title` **(1)** for the Title and `abstract.text` **(2)** for the Description. Then select **Next (3)** twice and click on **Create Demo App**. After the prompt, select **Download** to download an HTML file named `AzSearch.html`.
 
-    ![Create a demo app.](media/create-demo-app-1.1.png)
+    ![Create a demo app.](media/create-demo-app-1upd.1.png)
 
 12. Open the demo app HTML file. In the search box, enter the phrase **RNA interference (1)** and select the **Search icon (2)**. This will return 497 papers relating to RNA interference.
 
     ![Use the demo app.](media/L2T4S12.png)
-
-    >**Note**: If you face any issues on validation, please perform the next steps till the end of this lab and then click on validate button again.
-    
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-    <validation step="b927b6a3-f2fd-4047-9a54-233ef39525c5" />
 
 ## Task 5 - Updating Azure Search Indexes
 
@@ -222,13 +213,13 @@ The high-level steps covered in the lab are:
 
     ![The covid19temp indexer is selected.](media/AI2.png)
 
-12. Select the **Run (1)** option to process the 100 documents. Although we can configure an indexer to run periodically, this indexer will only run when manually engaged.  Select **Yes (2)** to run the indexer.
+12. Select the **Run** option to process the 100 documents. Although we can configure an indexer to run periodically, this indexer will only run when manually engaged.  Select **Yes** to run the indexer.
 
-    ![The covid19temp indexer is set to run.](media/azure-search-indexers-run.1.png)
+    ![The covid19temp indexer is set to run.](media/azure-search-indexers-run.1upd.png)
 
 13. The indexer will run. It should be completed within 15-30 seconds to process the 100 new documents. You may need to select **Refresh** to see the indexer's progress.
 
-    ![The covid19temp indexer has finished running.](media/azure-search-indexers-refresh.png)
+    ![The covid19temp indexer has finished running.](media/azure-search-indexers-refreshupd.png)
 
 14. Return to the **Indexes** tab for the Search service and ensure that the **covid19temp** index has 965 documents. If it still reads 865, wait 30 seconds and select **Refresh** to check again.
 
@@ -237,6 +228,15 @@ The high-level steps covered in the lab are:
 15. Select the **covid19temp** index to return to the Search Explorer. When we had 865 documents, 53 of them pertained to Brazil. We can confirm that this update was successful by entering `Brazil&$count=true` **(1)** and selecting **Search (2)**. This will now return 57 results **(3)** instead of the prior 53.
 
     ![57 documents pertaining to Brazil.](media/L2T5S15.png)
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+    <validation step="b927b6a3-f2fd-4047-9a54-233ef39525c5" />
+
+    >**Note**: If you face any issues on validation, please perform the next steps till the end of this lab and then click on validate button again.
 
 ## Task 6 - Using the Document Intelligence Studio
 
