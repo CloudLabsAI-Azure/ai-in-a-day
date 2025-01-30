@@ -26,7 +26,7 @@ The way organizations are building conversational systems is evolving, with bots
 
 1. Navigate to **[Microsoft Copilot Studio page](https://www.microsoft.com/en-us/copilot/microsoft-copilot-studio)** and select **Try Free**. 
 
-   ![](media/L4T2S1.png)
+   ![](media/L4T2S1upd.png)
 
 1. On the **Let's get you started**, enter your azure username **(1)** and select **Next (2)**. Then click on **Sign in.** 
 
@@ -46,6 +46,9 @@ The way organizations are building conversational systems is evolving, with bots
 1. On the **Welcome to Microsoft Copilot Studio (1)** page, choose your respective region and select **Get Started (2)**.
 
    ![](media/L4T2S6.png)
+   >**Note:** If you see a page **Welcome to Copilot Studio!**, click on Skip.
+
+1. On the **Agent** page click on **Skip to configure**.
 
 1. On the **Create a Copilot** page enter the following details:
 
@@ -109,12 +112,12 @@ The way organizations are building conversational systems is evolving, with bots
 
 13. Review the topic trigger, and click on **Save** from the right-top corner to save the topic.
 
-   ![](media/cai-l4-t4-s13new.png)
+   ![](media/cai-l4-t4-s13newupd.png)
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
    <validation step="1f3092c6-421b-4e88-8fe6-b5cb70ca1396" />
 

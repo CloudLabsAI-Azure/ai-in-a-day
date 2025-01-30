@@ -47,7 +47,7 @@ The semantic ranking is an extension of the query execution pipeline that improv
     | Name (1)                    | my-semantic-config                           |
     | Title field (2)             | Select `metadata/title` from the drop-down   |
     | Field name under Content fields (3) | Select `bib_entries/BIBREFO/title` from the drop-down |
-    | Field name under Key fields (4)    | Select `bib_entries/BIBREFO/ref_id` from the drop-down |
+    | Field name under Keyword fields (4)    | Select `bib_entries/BIBREFO/ref_id` from the drop-down |
   
    Click on **Save** **(5)**.
   
@@ -100,9 +100,9 @@ In this task, you are going to perform the semantic search using a query in [RES
    
     ![Semantic search](media/lab2b-ssp13.png)
 
-1. In the Parameters section, enter the below values for **api-version** **(1)** and **api-key** **(2)**.
+1. In the **Parameters** section, enter the below values for **api-version** **(1)** and **api-key** **(2)**.
 
-    | Parameter           | Value                                        |
+    | Key           | Value                                        |
     | --------------------| -------------------------------------------- |
     | api-version         | 2021-04-30-Preview                           |
     | api-key             | Enter the manage query key which you have copied earlier in Step - 2    |
