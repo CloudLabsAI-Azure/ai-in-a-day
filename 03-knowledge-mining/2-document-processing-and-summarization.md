@@ -157,7 +157,7 @@ The high-level steps covered in the lab are:
 
 11. On the first tab, select `metadata.title` **(1)** for the Title and `abstract.text` **(2)** for the Description. Then select **Next (3)** twice and click on **Create Demo App**. After the prompt, select **Download** to download an HTML file named `AzSearch.html`.
 
-    ![Create a demo app.](media/create-demo-app-1upd.1.png)
+    ![Create a demo app.](media/create-demo-app-1upd1.png)
 
 12. Open the demo app HTML file. In the search box, enter the phrase **RNA interference (1)** and select the **Search icon (2)**. This will return 497 papers relating to RNA interference.
 
