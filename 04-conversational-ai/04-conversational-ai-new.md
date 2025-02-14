@@ -74,9 +74,13 @@ The way organizations are building conversational systems is evolving, with bots
 
 3. Once you are in the topic pane, **close** the edit with copilot pane from right-side.
 
-4. On the **topics** pane, click on **+** at the bottom of the **Question** node to **Add node**.
+4. On the **topics** pane, click on **+** at the bottom of the **Question** node and select **Add a condition**.
 
    ![](media/L4T3S4.png)
+
+1. In add a condition, enter **Los Angeles** and **Seattle** as the values for the conditions
+
+   ![](media/L4T3S4upd.png)
 
 5. Select **Ask a question** from the drop-down while adding a node.
 

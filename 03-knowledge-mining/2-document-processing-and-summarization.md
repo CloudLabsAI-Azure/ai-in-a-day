@@ -157,7 +157,7 @@ The high-level steps covered in the lab are:
 
 11. On the first tab, select `metadata.title` **(1)** for the Title and `abstract.text` **(2)** for the Description. Then select **Next (3)** twice and click on **Create Demo App**. After the prompt, select **Download** to download an HTML file named `AzSearch.html`.
 
-    ![Create a demo app.](media/create-demo-app-1upd1.png)
+    ![Create a demo app.](media/demoappupd.png)
 
 12. Open the demo app HTML file. In the search box, enter the phrase **RNA interference (1)** and select the **Search icon (2)**. This will return 497 papers relating to RNA interference.
 
@@ -242,17 +242,17 @@ The high-level steps covered in the lab are:
 
 1. Navigate to [the Azure portal](https://portal.azure.com) and log in with your credentials. Then, select **Resource groups**.
 
-    ![Open Azure resource group](media/SHC2a.3.1.png)
+     ![Open Azure resource group](media/SHC2a.3.1.png)
 
 1. Select the **AI-in-a-Day** resource group.
 
 1. Select the **aiinadaystorage<inject key="DeploymentID" enableCopy="false"/>** Storage account.
 
-    ![The Storage account is highlighted from the list of services in the AI-in-a-Day Resource Group](media/inn15.png)
+     ![The Storage account is highlighted from the list of services in the AI-in-a-Day Resource Group](media/inn15.png)
 
 1. Under **Settings**, navigate to the **Resource sharing (CORS)** page. 
 
-    ![The CORS is highlighted from the list of services in the AI-in-a-Day Resource Group](media/storaheaccount-CORS.png)
+     ![The CORS is highlighted from the list of services in the AI-in-a-Day Resource Group](media/storaheaccount-CORS.png)
     
 1. On the Resource Sharing (CORS) page, ensure that you are on the **Blob service** **(1)** tab, and enter the following values into the table **(2)** and then select **Save** **(3)** to save the CORS settings.  
 
@@ -264,27 +264,27 @@ The high-level steps covered in the lab are:
     | Exposed headers             | Enter `*`                                          |
     | Max age                     | Enter `200`                                        |
 
-    ![The CORS options are set for the storage account](media/storage-cors-blob.png)
+     ![The CORS options are set for the storage account](media/storage-cors-blob.png)
 
 1. Return to the Azure Portal page with your storage account. Navigate back to the **AI-in-a-Day** resource group and select the Document Intelligence resource **aiinaday-formrecog<inject key="DeploymentID" enableCopy="false"/>**.
 
-    ![The AI Services service is selected](media/inn11.png)
+     ![The AI Services service is selected](media/inn11.png)
 
 1. Select the **Keys and Endpoint** **(1)** option under Resource Management and click on **Show Keys** **(2)**. Then, copy the value for **KEY 1** **(3)** and the **Endpoint** **(4)**. Paste these into a text file for later use.
 
-    ![The AI Services key and endpoint are selected](media/inn12.png)
+     ![The AI Services key and endpoint are selected](media/inn12.png)
 
 1. Navigate to the [Document Intelligence Studio](https://formrecognizer.appliedai.azure.com/), scroll-down to **Custom models** and select **Get Started** under **Custom model**. Use the credentials provided in the Environment Details to Sign-in.
 
-    ![Create new custom model](media/updated-document-ai.png)
+     ![Create new custom model](media/updated-document-ai.png)
 
 1. In the Custom models page, under **My Project** click on **+ Create a project**.
   
-    ![Project](media/updated-doc-ai-2.png)
+     ![Project](media/updated-doc-ai-2.png)
 
 1. In the Enter Project Details pane, enter the Project Name as **covid19abstract (1)** and add the description as **Extracting Abstract from the documents (2)**. Click on **Continue (3)**.
 
-    ![The covid19abstract project has been created](media/lab2a-t6-frs3.1.png)
+     ![The covid19abstract project has been created](media/lab2a-t6-frs3.1.png)
     
 1. In the **Configure service resource**, provide the following details and click on **Continue (4)**.
    
@@ -295,7 +295,7 @@ The high-level steps covered in the lab are:
     | Document Intelligence or AI Service Resource| aiinaday-formrecog<inject key="DeploymentID" enableCopy="false"/> **(3)**|
     
 
-    ![Project](media/form-service.png)
+     ![Project](media/form-service.png)
     
 1. Next in the connect training data source, select the below values from the drop-down and click on **Continue (6)**.
 
@@ -313,61 +313,63 @@ The high-level steps covered in the lab are:
 
 1. Review the details and click on **Create project**.
 
-    ![Project](media/SHC2a.6.13.png)
+     ![Project](media/SHC2a.6.13.png)
   
 1. After creating a new project, you will be sent to the project for tagging in Label data. Select **+Add a Field** **(1)** to create a new field click on **Field** **(2)**, type `Abstract` in the Field, and hit enter. By this, you have created a new Abstract Field.
 
-    ![The Abstract tag has been created](media/innovate5.png)
+     ![The Abstract tag has been created](media/innovate5.png)
     
-    ![The Abstract tag has been created](media/lab2a-t6-frs9.png)
+     ![The Abstract tag has been created](media/lab2a-t6-frs9.png)
 
-1. Click on **Run layout**.Wait for the layout to be run for the first document and locate the document's abstract. Note that for some documents, the abstract is on the second page. Then, move on to the next document. We will tag each of the five papers, so navigate to each in turn, allowing the layout to be run. In order for tagging to be successful, we must first run the layout of a document, navigate to another document, and return to this first document before we begin tagging. Layout generation happens once per document, after which we can return to it and tag our abstract.
+1. Click on Run Layout and wait for the layout to complete for the first document. Locate the document’s abstract. Note that in some documents, the abstract may be on the second page. However, after running the layout, the abstract may not be automatically detected, and all text might be highlighted in yellow. In this case, you will need to manually select each word in the abstract before tagging.
 
-    ![Running layout for a document](media/L2-T6-S15.png)
+     ![Running layout for a document](media/L2-T6-S15.png)
 
-    ![Running layout for a document](media/lab2a-t6-frs7.png)
+     ![Running layout for a document](media/lab2a-t6-frs7.png)
 
-1. Return to the second PDF and select each word in the **Abstract** section. After highlighting this, select the **Abstract** tag to tag this section. Note that you will need to select each word individually rather than selecting a box. After selecting the **Abstract** tag, you should see a tag logo next to the PDF. If you see the tag logo, this means that tagging was successful for this document.
+1. Once the layout is generated for the first document, move on to the next document. We will tag each of the five papers, so navigate to each in turn, allowing the layout to be processed. To ensure tagging is successful, you must first run the layout for a document, navigate to another document, and then return to the first document before beginning the tagging process. Layout generation happens only once per document, so after it is generated, you can return to the document and proceed with tagging.
 
-    ![The first PDF has been viewed, and the second PDF has been tagged](media/L2-T6-S16.1.png)
+1. Return to the second PDF and manually select each word in the **Abstract** section. Once highlighted, select the **Abstract** tag to tag this section. You will need to select each word individually rather than selecting a box. After tagging, you should see a tag logo next to the PDF. If the tag logo appears, it confirms that tagging was successful for this document.
+
+     ![The first PDF has been viewed, and the second PDF has been tagged](media/L2-T6-S16.1.png)
 
 1. Return to the first PDF and highlight the word **ABSTRACT** and the abstract. If the abstract is lengthy, as in this example, it is okay to include just the first paragraph. Then, select the **Abstract** tag to tag this document. Ensure that the viewed icon (an eye) changes to a tag icon. If it does not change to a tag but instead changes to a blank spot without any icons, tagging was unsuccessful. In the event that tagging is unsuccessful, select another document, wait for it to have its layout run, and then return to the prior document and try tagging again.
 
-    ![The first PDF has been tagged](media/L2-T6-S17.png)
+     ![The first PDF has been tagged](media/L2-T6-S17.png)
 
 1. Continue tagging until all five of the top papers are tagged. Once we have tagged five documents, select the **Train** option.
     
-    ![The first five PDFs have been tagged](media/L2-T6-S18.png)
+     ![The first five PDFs have been tagged](media/L2-T6-S18.png)
 
 1. In a pop-up to Train a new model, enter **Abstracts (1)** as the ModelID, and select the **Neural (Recommended) (2)** from the drop-down as Build Mode. Then click on **Train (3)**.
 
-    ![The option to train a model has been selected](media/form-model.png)
+     ![The option to train a model has been selected](media/form-model.png)
 
 1. Training a model may take up to 45-60 minutes to succeed. Click on **Go to models**. 
 
-    ![The option to train a model has been selected](media/lab2a-t6-frs14.png)
+     ![The option to train a model has been selected](media/lab2a-t6-frs14.png)
 
     >**Note**: As Training a model will take up to 45-60 minutes to succeed. No need to wait for it, you can continue with next Lab. Come back later and review it after an hour.
 
 1. After the model has finished training, you will see that the Status has succeeded.  Although the estimated accuracy is not great, we will use this model.
 
-    ![The Abstracts model has been trained](media/lab2a-t6-frs15.png)
+     ![The Abstracts model has been trained](media/lab2a-t6-frs15.png)
 
 1. From the left menu, select the **Test (1)**. Click on **Browse for a file (2)**. 
 
-    ![An analyzed document](media/innovate6.png)
+     ![An analyzed document](media/innovate6.png)
     
 1. In the Upload Files pop-up, Navigate to `C:\Temp\AzureSearch\`, select `2020.09.25.20201616v1.pdf` file **(2)** and then click on **Open** **(3)**.
     
-    ![An analyzed document](media/innovate7.png)
+     ![An analyzed document](media/innovate7.png)
    
 1. Choose `2020.09.25.20201616v1.pdf` file, select **Run Analysis (1)**. Note that the abstract is on **page 2 (2)** of the PDF. View the **Results (3)** on the right side of the page.
     
-    ![An analyzed document](media/innovate8.png)
+     ![An analyzed document](media/innovate8.png)
 
 1. Select **Result (1)** and click on **download icon (2)** to download JSON file. Find the location where the script was downloaded and observe the result code.
 
-    ![An analyzed document](media/lab2a-t6-frs19.1.png)
+     ![An analyzed document](media/lab2a-t6-frs19.1.png)
     
 1. For now, you have used custom models with Neural build mode. You can use any sample document which contains Tables and Signatures to Test/Analyze using Template build mode. Please find the reference to explore more about Document Intelligence Studio: [Quickstart: Document Intelligence Studio - Azure Applied AI Services | Microsoft Docs](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview?view=doc-intel-3.1.0)
 
