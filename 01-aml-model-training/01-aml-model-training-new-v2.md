@@ -114,6 +114,8 @@ The high-level steps covered in the lab are:
    
    ![](./media/setkernel2.png)
 
+    > **Note:** Ensure that you execute all the commands and verify that they run to completion.
+
 1. From the `Application` section associated with the compute instance, select `Jupyter` **(1)**. 
 
     ![](media/ml-jupyter.png)
@@ -140,8 +142,16 @@ The high-level steps covered in the lab are:
 
    ![Run Note Book Cell](./media/IMG012.png)
    ![Note Book Cell Output](./media/SHC4.1.png)
-   
- 4. Please make sure to read the cells carefully and update the storage account name wherever required with **<inject key="Storage Account Name" enableCopy="false"/>**
+
+    >**Note:** Please restart the kernal once the packages have been updated
+
+ 4. Run the import cell and ensure it completes execution.
+
+    ![Note Book Cell Output](./media/import-1.png)
+
+    >**Note:** If you see the "IProgress not found" error, it is expected. Please proceed further.
+
+ 5. Please make sure to read the cells carefully and update the storage account name wherever required with **<inject key="Storage Account Name" enableCopy="false"/>**
 
      ![Note Book Cell Output](./media/aiupdates.png)
 
@@ -261,7 +271,9 @@ Responsible AI is a governance framework that documents how a specific organizat
 1. Execute the cells inside `erroranalysis-dashboard-regression-superconductor.ipynb` notebook one by one (Click on the **Run** button or by using either Ctrl + Enter to stay on the same cell, or Shift + Enter to advance to the next cell or) and observe the results of each cell execution.
 
    ![Run Note Book Cell](./media/IMG014.png)
-   
+
+    >**Note:** Please restart the kernal once the packages have been updated
+
 1. Please make sure to read the cells carefully and run them one by one. Click on the **Endpoint** URL at the end of the notebook before moving to the next task.
 
    ![Note Book Cell Output](./media/ai-img3.png)

@@ -68,49 +68,53 @@ The way organizations are building conversational systems is evolving, with bots
 
    ![](media/copilot-1.jpg)
 
-2. In Create it with Copilot pane, Name your topic as **Meal delivery options** **(1)**. In Create a topic to ..., enter the given phrase "**Checking for food options based on the city you are in**" **(2)**, then click on **Create** **(3)**.
+1. In Create it with Copilot pane, Name your topic as **Meal delivery options** **(1)**. In Create a topic to ..., enter the given phrase "**Checking for food options based on the city you are in**" **(2)**, then click on **Create** **(3)**.
 
    ![](media/cai-l4-t4-s2.png)
 
-3. Once you are in the topic pane, **close** the edit with copilot pane from right-side.
+1. Once you are in the topic pane, **close** the edit with copilot pane from right-side.
 
-4. On the **topics** pane, click on **+** at the bottom of the **Question** node to **Add node**.
+1. On the **topics** pane, click on **+** at the bottom of the **Question** node and select **Add a condition**.
 
    ![](media/L4T3S4.png)
 
-5. Select **Ask a question** from the drop-down while adding a node.
+1. In add a condition, enter **Los Angeles** and **Seattle** as the values for the conditions.
+
+   ![](media/L4T3S4-2.png)
+
+1. Select **Ask a question** from the drop-down while adding a node.
 
    ![](media/L4T3S5.png)
 
-6. Enter the question as "**What type of food would you like to order?**" **(1)** and under options for users, click on **New option** **(2)** to add types of food. Add **Chinese** and **Italian** **(3)** as shown in the below screenshot.
+1. Enter the question as "**What type of food would you like to order?**" **(1)** and under options for users, click on **New option** **(2)** to add types of food. Add **Chinese** and **Italian** **(3)** as shown in the below screenshot.
 
    ![](media/cai-l4-t4-s6.png)
    
-7. Now under Condition of Chinese, click on **+** to Add node.
+1. Now under Condition of Chinese, click on **+** to Add node.
 
    ![](media/cai-l4-t4-s7new.png)
 
-8. Select **Send a message** from the drop-down while adding a node.
+1. Select **Send a message** from the drop-down while adding a node.
 
    ![](media/cai-l4-t4-s8.png)
 
-9. Enter the Chinese food items given here in the message section: **Noodles, Spring Rolls, Fried Chicken**
+1. Enter the Chinese food items given here in the message section: **Noodles, Spring Rolls, Fried Chicken**
 
    ![](media/cai-l4-t4-s9.png)
 
-10. Now under Condition of Italian, click on **+** to Add node.
+1. Now under Condition of Italian, click on **+** to Add node.
 
    ![](media/cai-l4-t4-s10.png)
 
-11. Select **Send a message** from the drop-down while adding a node.
+1. Select **Send a message** from the drop-down while adding a node.
 
    ![](media/cai-l4-t4-s11.png)
 
-12. Enter the Italian food items given here in the message section: **Pizza, Pasta, Truffles**
+1. Enter the Italian food items given here in the message section: **Pizza, Pasta, Truffles**
 
    ![](media/cai-l4-t4-s12.png)
 
-13. Review the topic trigger, and click on **Save** from the right-top corner to save the topic.
+1. Review the topic trigger, and click on **Save** from the right-top corner to save the topic.
 
    ![](media/cai-l4-t4-s13newupd.png)
 
