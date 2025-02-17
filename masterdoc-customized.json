@@ -4,23 +4,23 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/supreethr23/ai-in-a-day/ms-innovation/00-getting-started-v2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/ai-in-a-day/ms-innovation/00-getting-started-v2.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/supreethr23/ai-in-a-day/ms-innovation/01-aml-model-training/01-aml-model-training-new-v2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/ai-in-a-day/ms-innovation/01-aml-model-training/01-aml-model-training-new-v2.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/supreethr23/ai-in-a-day/ms-innovation/03-knowledge-mining/2-document-processing-and-summarization.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/ai-in-a-day/ms-innovation/03-knowledge-mining/2-document-processing-and-summarization.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/supreethr23/ai-in-a-day/ms-innovation/03-knowledge-mining/3-semantic-query-and-return-semantic-answer.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/ai-in-a-day/ms-innovation/03-knowledge-mining/3-semantic-query-and-return-semantic-answer.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/supreethr23/ai-in-a-day/ms-innovation/04-conversational-ai/04-conversational-ai-new.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/ai-in-a-day/ms-innovation/04-conversational-ai/04-conversational-ai-new.md",
         "Order": 5
       }
     ]
