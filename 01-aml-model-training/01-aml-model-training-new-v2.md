@@ -145,7 +145,13 @@ The high-level steps covered in the lab are:
 
     >**Note:** Please restart the kernal once the packages have been updated
 
- 4. Please make sure to read the cells carefully and update the storage account name wherever required with **<inject key="Storage Account Name" enableCopy="false"/>**
+ 4. Run the import cell and ensure it completes execution.
+
+    ![Note Book Cell Output](./media/import-1.png)
+
+    >**Note:** If you see the "IProgress not found" error, it is expected. Please proceed further.
+
+ 5. Please make sure to read the cells carefully and update the storage account name wherever required with **<inject key="Storage Account Name" enableCopy="false"/>**
 
      ![Note Book Cell Output](./media/aiupdates.png)
 
